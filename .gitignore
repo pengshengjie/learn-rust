@@ -1,0 +1,46 @@
+# 常规忽略内容
+**/target/
+**/*.rs.bk
+**/*.swp
+**/*.tmp
+
+# 编辑器生成的文件
+*.rs.bk
+*.swp
+*.tmp
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# 依赖
+**/.cargo/
+Cargo.lock
+cargo.toml.orig
+
+# 构建过程中的中间文件
+**/build/
+*.o
+*.d
+*.rmeta
+*/deps/*
+**/target/
+/.rust/
+*.rmeta
+*.rmeta.tmp
+
+# 单元测试与性能测试相关忽略内容
+/coverage/
+*.gcno
+*.gcda
+*.gcov
+*.c
+*.cpp
+*.h
+*.hpp
+
+# 其他
+*.log
+.DS_Store
+*.vagrant
+**/venv/
